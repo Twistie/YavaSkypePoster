@@ -3,18 +3,12 @@ package au.com.grogsoft;
 import com.skype.ChatProxy;
 import com.skype.SkypeException;
 import com.sun.jersey.core.spi.factory.ResponseBuilderImpl;
-import com.sun.jersey.core.spi.factory.ResponseImpl;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Response.ResponseBuilder;
 
-/**
- * Created by Twistie on 12/09/2015.
- */
 @Path("/skype")
-
 public class YavaSkypeResource {
 
     @GET
