@@ -33,7 +33,7 @@ shadowJar {
     }
 }
 
-task zipBigJar(type: Zip) {
+task zipShadowJar(type: Zip) {
     dependsOn shadowJar
     from 'src/main/resources'
     from( 'build/libs') {
