@@ -14,7 +14,7 @@ To use, send a POST to the bound address\skype (or, by default, http://localhost
 ```
 {
     "chatId": "UserID or ChatID to send the message to",
-    "message": "Jovial sux"
+    "message": "The contents of your message"
 }
 ```
 
